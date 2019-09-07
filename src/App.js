@@ -1,13 +1,10 @@
 import React from "react";
-import Footer from "./components/Footer";
-import MainContent from "./components/MainContent";
-import Header from "./components/Header";
-import CheckboxForm from "./components/CheckboxForm";
+import Container from "./components/Container";
 
 function App() {
   return (
     <div className="App">
-      <CheckboxForm />
+      <Container />
     </div>
   );
 }

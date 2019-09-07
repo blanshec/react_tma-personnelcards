@@ -1,8 +1,9 @@
 import React from "react";
+import "./footer.css";
 
 function Footer() {
   return (
-    <footer>
+    <footer className="footer">
       <p>goodbye!</p>
     </footer>
   );
