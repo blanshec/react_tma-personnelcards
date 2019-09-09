@@ -1,10 +1,11 @@
 import React from "react";
+import Heading from "../header__heading/Heading";
 import "../header/header.css";
 
 function Header() {
   return (
     <header className="header">
-      <h1 className="header__heading">The Magnus Archives Personnel</h1>
+      <Heading />
     </header>
   );
 }
