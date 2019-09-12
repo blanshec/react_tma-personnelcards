@@ -1,4 +1,4 @@
-import "./container.css";
+import "./container.scss";
 
 import React from "react";
 

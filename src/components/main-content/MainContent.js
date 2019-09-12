@@ -1,8 +1,8 @@
 import React from "react";
-import "./main-content.css";
+import "./main-content.scss";
 import PersonList from "../person-list/PersonList";
 
-//helper func
+//helper func to generate id of a card based on the name
 const getId = str => {
   let key = 0;
   for (let i = 0; i < str.length; i++) {
@@ -16,13 +16,14 @@ const archivists = [
   { id: getId("Sasha"), name: "Sasha" },
   { id: getId("Tim"), name: "Tim" },
   { id: getId("Basira"), name: "Basira" },
+  { id: getId("Melanie"), name: "Melanie" },
+  { id: getId("Daisy"), name: "Daisy" },
   { id: getId("Martin"), name: "Martin" }
 ];
 
 function MainContent() {
   return (
     <main className="main-content">
-      <h2>Archivist's Assistants</h2>
       <PersonList archivists={archivists} />
     </main>
   );

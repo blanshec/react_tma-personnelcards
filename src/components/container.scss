@@ -1,0 +1,14 @@
+@import "../assets/colors/variables";
+
+.container {
+  margin: 0 auto;
+  width: 90%;
+  max-width: 985px;
+  min-height: 100vh;
+
+  background-color: $secondary-color;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

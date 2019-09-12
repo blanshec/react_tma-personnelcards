@@ -1,8 +1,10 @@
+@import "./assets/colors/variables";
+
 .App {
   margin: 0 auto;
   font-family: "Cinzel", serif;
 }
 
 body {
-  background-color: #163300;
+  background-color: $base-color;
 }
